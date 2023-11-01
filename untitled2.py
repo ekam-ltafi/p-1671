@@ -8,7 +8,7 @@ pa_grade_5_label = Label(root)
 pa_grade_10_label = Label(root)
 
 class grade_3() :
-    def __innit__(self,lang_arts , maths):
+    def __init__(self,lang_arts , maths):
         self.lang_arts = lang_arts
         self.maths = maths
         
@@ -20,7 +20,7 @@ class grade_3() :
         
 class grade_5():
     
-    def __innit__(self , lang_arts , maths , sst):
+    def __init__(self , lang_arts , maths , sst):
         self.lang_arts = lang_arts
         self.maths = maths
         self.sst = sst
@@ -31,7 +31,7 @@ class grade_5():
          pa_grade_5_label["text"] = grade_5_pa
          
 class grade_10():
-    def __innit__(self, lang_arts , maths , sst , foreign_lang):
+    def __init__(self, lang_arts , maths , sst , foreign_lang):
         self.lang_arts = lang_arts
         self.maths = maths
         self.sst = sst
